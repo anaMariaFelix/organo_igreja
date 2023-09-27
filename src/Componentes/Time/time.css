@@ -1,0 +1,19 @@
+.time{
+    text-align: center;
+    padding: 32px;
+}
+
+.time h3{
+    font-size: 32PX;
+    border-bottom: 4px solid ;
+    display: inline-block; /*diminui o tamanho da bordar deixando do tamanho de cada nome*/
+    padding-bottom: 8px;/*cria um espaço entre o texto e o sublinhado*/
+}
+
+.time .colaboradores{
+    display: flex;
+    justify-content: space-around; /*coloca um card ao lado do outro*/
+    margin-top: 32px;
+    flex-wrap: wrap;/*quebra uma linha caso seja necessario*/
+    
+}

@@ -1,0 +1,19 @@
+.rodape{
+    background-color: #e9ddcf;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rodape section p{
+    color: #7c7b79;
+    font-size: 20px ;
+
+}
+
+.rodape section ul li{
+    display: inline-block;
+    margin-right: 64px;
+    max-width: 100%;
+    
+}

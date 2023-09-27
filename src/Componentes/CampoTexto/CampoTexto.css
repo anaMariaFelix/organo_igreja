@@ -1,0 +1,21 @@
+.campo-texto{
+    margin: 24px 0;
+}
+
+.campo-texto label{
+    display: block;
+    color: #423f3d;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.campo-texto input{
+    background-color: #fff;
+    color: #423f3d;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);/*borda*/
+    width: 100%;/*vai pegar 1005 da tela, mas no caso como ele vai ficar dentro de outro componente ele vai pegar 100% desse componente*/
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;/*serve para o campo n ficar estourando a tela*/
+}
